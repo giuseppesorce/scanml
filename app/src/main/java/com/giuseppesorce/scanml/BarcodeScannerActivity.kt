@@ -42,6 +42,7 @@ class BarcodeScannerActivity : AppCompatActivity() {
 
 
         cameraView.setLifecycleOwner(this)
+        cameraView.playSounds= false
 
         sheetBehavior.peekHeight = 224
         sheetBehavior.setBottomSheetCallback(object : BottomSheetBehavior.BottomSheetCallback() {
